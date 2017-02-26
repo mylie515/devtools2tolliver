@@ -24,9 +24,39 @@ h1, h2, h3, h4, h5, h6, p, {
     font-weight: bold;
 }
 
+article, aside, details, figcaption, figure, header, nav, section, summary {
+    background-color:#8a8a87;
+}
+
 .site-footer .sidebar-container {
     background-color: #AFCCDA;
 }
+
+/* #3987AD; using this color for background
+
+----------------------------------------------------
+this was copied from developer tools
+
+body {
+    color: #e63f2a;  
+    line-height: 1.5;
+    margin: 0;
+--------------------------------------------------------
+    #F7FAFC  -using this color for font
+--------------------------------------------------------
+
+POSSIBLE CODES FOR CHANGING BACKGROUND COLOR
+
+@media print {
+	body {
+		background: none !important;
+		color: #e55627;
+		font-size: 10pt;
+	}
+
+
+
+
 
 /*h2 {
 	font-size: 28px;
